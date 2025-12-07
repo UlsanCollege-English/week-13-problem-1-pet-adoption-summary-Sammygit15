@@ -1,6 +1,6 @@
 def summarize_adoptions(adoptions):
-  
-    counts = {}  # dictionary to store animal -> count
+ 
+    counts = {}  # animal -> number adopted
 
     for animal in adoptions:
         if animal in counts:
